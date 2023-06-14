@@ -6,7 +6,7 @@
 /*   By: anttorre <atormora@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 12:59:03 by anttorre          #+#    #+#             */
-/*   Updated: 2023/06/01 12:48:39 by anttorre         ###   ########.fr       */
+/*   Updated: 2023/06/12 13:13:06 by anttorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,23 +75,4 @@ char	*ft_strjoin(char *s1, char *s2)
 		result[s1_length + i] = s2[i];
 	result[s1_length + i] = '\0';
 	return (free(s1), s1 = NULL, result);
-}
-
-char	*ft_strdup(const char *s1)
-{
-	char	*s2;
-	size_t	i;
-	size_t	size;
-
-	size = ft_strlen(s1) + 1;
-	s2 = malloc(size);
-	i = 0;
-	if (!s2)
-		return (NULL);
-	while (i < size)
-	{
-		s2[i] = s1[i];
-		i++;
-	}
-	return (s2);
 }

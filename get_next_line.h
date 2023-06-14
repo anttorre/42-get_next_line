@@ -6,7 +6,7 @@
 /*   By: anttorre <atormora@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 12:51:02 by anttorre          #+#    #+#             */
-/*   Updated: 2023/05/31 15:08:50 by anttorre         ###   ########.fr       */
+/*   Updated: 2023/06/12 13:13:08 by anttorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,5 @@ size_t	ft_strlen(const char *s);
 int		ft_strchr(const char *str, int c);
 void	*ft_calloc(size_t num_elements, size_t size);
 char	*ft_strjoin(char *s1, char *s2);
-char	*ft_strdup(const char *s1);
 
 #endif

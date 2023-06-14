@@ -6,11 +6,11 @@
 /*   By: anttorre <atormora@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/29 13:27:22 by anttorre          #+#    #+#             */
-/*   Updated: 2023/06/02 13:48:07 by anttorre         ###   ########.fr       */
+/*   Updated: 2023/06/12 13:12:07 by anttorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*read_buffer_size(int fd, char *buffer)
 {

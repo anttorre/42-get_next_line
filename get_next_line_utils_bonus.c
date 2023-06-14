@@ -6,11 +6,11 @@
 /*   By: anttorre <atormora@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 12:59:03 by anttorre          #+#    #+#             */
-/*   Updated: 2023/06/02 13:43:09 by anttorre         ###   ########.fr       */
+/*   Updated: 2023/06/12 13:12:19 by anttorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(const char *s)
 {
